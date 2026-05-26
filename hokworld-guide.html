@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Honor of Kings: World Beginner Guide 2025 – Tips, Combat & Team Builds</title>
+<meta name="description" content="Complete beginner guide for Honor of Kings: World. Learn combat mechanics, leveling systems, team compositions, and open-world exploration tips to start strong in this open-world ARPG.">
+<meta name="keywords" content="Honor of Kings World beginner guide, HoK World tips, Honor of Kings World combat, HoK World team composition, Honor of Kings World characters, open world ARPG guide 2025">
+<meta name="robots" content="index, follow">
+<meta name="author" content="HoK World Guide">
+<link rel="canonical" href="https://hokworldguide.gg/beginner-guide">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Honor of Kings: World Beginner Guide 2025 – Tips, Combat & Team Builds">
+<meta property="og:description" content="Everything a new player needs to master Honor of Kings: World — leveling, combat, exploration, and the best starter team comps.">
+<meta property="og:url" content="https://hokworldguide.gg/beginner-guide">
+<meta property="og:site_name" content="HoK World Guide">
+<meta property="article:published_time" content="2025-04-10T00:00:00Z">
+<meta property="article:modified_time" content="2025-05-27T00:00:00Z">
+<meta property="article:section" content="Game Guides">
+<meta property="article:tag" content="Honor of Kings World">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Honor of Kings: World Beginner Guide 2025">
+<meta name="twitter:description" content="Master HoK: World from day one. Leveling, combat, team comps, exploration & more.">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Honor of Kings: World Beginner Guide 2025",
+  "description": "Complete beginner guide for Honor of Kings: World covering combat mechanics, leveling systems, team compositions, and open-world exploration tips.",
+  "author": {"@type": "Organization", "name": "HoK World Guide"},
+  "datePublished": "2025-04-10",
+  "dateModified": "2025-05-27",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://hokworldguide.gg/beginner-guide"},
+  "publisher": {"@type": "Organization", "name": "HoK World Guide"},
+  "articleSection": "Game Guides",
+  "keywords": ["Honor of Kings World", "beginner guide", "ARPG", "team composition", "combat guide"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --gold: #C9A84C;
+    --gold-light: #E8C97A;
+    --gold-dim: #7A5F2A;
+    --bg-deep: #0A0C12;
+    --bg-card: #111420;
+    --bg-card2: #161A28;
+    --border: rgba(201,168,76,0.18);
+    --border-strong: rgba(201,168,76,0.45);
+    --text: #E8E3D8;
+    --text-muted: #8B8578;
+    --text-dim: #5A5550;
+    --red: #C0392B;
+    --teal: #1A8C74;
+    --purple: #6B4FA8;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg-deep);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* ── ANIMATED BACKGROUND ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 40% at 20% 15%, rgba(107,79,168,0.12) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 35% at 80% 80%, rgba(26,140,116,0.09) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 30% at 60% 40%, rgba(201,168,76,0.05) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10,12,18,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    color: var(--gold);
+    letter-spacing: 0.08em;
+    text-decoration: none;
+  }
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  .nav-links a {
+    font-size: 13px;
+    color: var(--text-muted);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--gold-light); }
+
+  /* ── HERO ── */
+  .hero {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 5rem 2rem 4rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .hero-badge {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid var(--border-strong);
+    padding: 4px 16px;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    animation: fadeUp 0.6s ease both;
+  }
+  .hero h1 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 700;
+    line-height: 1.15;
+    color: #F0EAD8;
+    text-shadow: 0 0 60px rgba(201,168,76,0.25);
+    animation: fadeUp 0.7s 0.1s ease both;
+    margin-bottom: 1.2rem;
+  }
+  .hero h1 em {
+    font-style: normal;
+    color: var(--gold-light);
+  }
+  .hero p {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    max-width: 620px;
+    margin: 0 auto 2rem;
+    animation: fadeUp 0.7s 0.2s ease both;
+  }
+  .hero-meta {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: var(--text-dim);
+    animation: fadeUp 0.7s 0.3s ease both;
+  }
+  .hero-meta span { display: flex; align-items: center; gap: 6px; }
+  .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold-dim); }
+
+  /* ── TABLE OF CONTENTS ── */
+  .toc {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 0 auto 3rem;
+    padding: 0 2rem;
+  }
+  .toc-inner {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+  }
+  .toc-title {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    color: var(--gold);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  .toc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 6px 2rem;
+  }
+  .toc-grid a {
+    font-size: 14px;
+    color: var(--text-muted);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+    transition: color 0.2s;
+  }
+  .toc-grid a:hover { color: var(--gold-light); }
+  .toc-num {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    color: var(--gold-dim);
+    min-width: 18px;
+  }
+
+  /* ── LAYOUT ── */
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 2rem 6rem;
+  }
+
+  /* ── SECTION ── */
+  .guide-section {
+    margin-bottom: 3.5rem;
+    border-top: 1px solid var(--border);
+    padding-top: 2.5rem;
+  }
+  .section-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .section-num {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    color: var(--gold-dim);
+    padding-top: 4px;
+    min-width: 28px;
+  }
+  .section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #F0EAD8;
+    line-height: 1.3;
+  }
+  .section-title small {
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--gold);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+
+  /* ── PROSE ── */
+  .prose { font-size: 15px; color: #B8B2A8; line-height: 1.8; }
+  .prose p { margin-bottom: 1rem; }
+  .prose strong { color: var(--text); font-weight: 500; }
+
+  /* ── TIP BOX ── */
+  .tip-box {
+    background: rgba(201,168,76,0.06);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin: 1.25rem 0;
+    font-size: 14px;
+    color: #C4BFAA;
+  }
+  .tip-box strong { color: var(--gold-light); }
+
+  .warning-box {
+    background: rgba(192,57,43,0.08);
+    border-left: 3px solid var(--red);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin: 1.25rem 0;
+    font-size: 14px;
+    color: #C4BFAA;
+  }
+  .warning-box strong { color: #E87A6E; }
+
+  /* ── CARDS GRID ── */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .card:hover { border-color: var(--border-strong); transform: translateY(-2px); }
+  .card-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 0.75rem;
+  }
+  .card-icon.gold { background: rgba(201,168,76,0.12); }
+  .card-icon.teal { background: rgba(26,140,116,0.12); }
+  .card-icon.purple { background: rgba(107,79,168,0.12); }
+  .card-icon.red { background: rgba(192,57,43,0.12); }
+  .card h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #E8E3D8;
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.03em;
+  }
+  .card p { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin: 0; }
+
+  /* ── ROLE TABLE ── */
+  .role-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  .role-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .role-header {
+    padding: 0.75rem 1.25rem;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .role-header.frontline { background: rgba(192,57,43,0.15); color: #E87A6E; border-bottom: 1px solid rgba(192,57,43,0.2); }
+  .role-header.dps { background: rgba(201,168,76,0.12); color: var(--gold-light); border-bottom: 1px solid rgba(201,168,76,0.18); }
+  .role-header.support { background: rgba(26,140,116,0.12); color: #5CC4A4; border-bottom: 1px solid rgba(26,140,116,0.2); }
+  .role-body { padding: 1rem 1.25rem; }
+  .role-body p { font-size: 13px; color: var(--text-muted); margin-bottom: 0.75rem; }
+  .char-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+  .tag.red { border-color: rgba(192,57,43,0.4); color: #E87A6E; background: rgba(192,57,43,0.08); }
+  .tag.gold { border-color: rgba(201,168,76,0.35); color: var(--gold-light); background: rgba(201,168,76,0.07); }
+  .tag.teal { border-color: rgba(26,140,116,0.4); color: #5CC4A4; background: rgba(26,140,116,0.08); }
+
+  /* ── TEAM COMP ── */
+  .team-comp {
+    background: var(--bg-card2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 1.25rem 0;
+  }
+  .team-header {
+    padding: 0.9rem 1.5rem;
+    background: rgba(201,168,76,0.07);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .team-name {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color: var(--gold-light);
+  }
+  .team-diff {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  .diff-easy { background: rgba(26,140,116,0.15); color: #5CC4A4; border: 1px solid rgba(26,140,116,0.3); }
+  .diff-hard { background: rgba(192,57,43,0.12); color: #E87A6E; border: 1px solid rgba(192,57,43,0.3); }
+  .team-slots {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+  .team-slot {
+    padding: 1rem 1.25rem;
+    border-right: 1px solid var(--border);
+  }
+  .team-slot:last-child { border-right: none; }
+  .slot-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+  }
+  .slot-chars { font-size: 13px; color: var(--text); font-weight: 500; }
+  .slot-chars span { display: block; }
+  .team-note {
+    padding: 0.75rem 1.5rem;
+    font-size: 12px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border);
+    background: rgba(0,0,0,0.15);
+  }
+
+  /* ── LEVEL TABLE ── */
+  .level-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 1.25rem 0;
+  }
+  .level-table th {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: var(--gold);
+    text-transform: uppercase;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-strong);
+  }
+  .level-table td {
+    padding: 0.75rem 1rem;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  .level-table tr:last-child td { border-bottom: none; }
+  .level-table .source { color: var(--text); font-weight: 500; }
+  .level-table .highlight { color: var(--gold-light); }
+
+  /* ── STEPS ── */
+  .steps { counter-reset: step; list-style: none; margin: 1.25rem 0; }
+  .steps li {
+    counter-increment: step;
+    padding: 0.9rem 1.25rem 0.9rem 3.5rem;
+    position: relative;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 1.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(201,168,76,0.15);
+    border: 1px solid var(--border-strong);
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .steps li strong { color: var(--text); }
+
+  /* ── FAQ ── */
+  .faq { margin: 1.5rem 0; }
+  .faq-item {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  .faq-q {
+    padding: 1rem 1.25rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    background: var(--bg-card);
+    transition: background 0.2s;
+  }
+  .faq-q:hover { background: var(--bg-card2); }
+  .faq-q .arrow { color: var(--gold-dim); font-size: 18px; transition: transform 0.25s; }
+  .faq-item.open .faq-q .arrow { transform: rotate(180deg); }
+  .faq-a {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background: var(--bg-card2);
+  }
+  .faq-item.open .faq-a { max-height: 200px; }
+  .faq-a-inner { padding: 0.75rem 1.25rem 1rem; font-size: 13px; color: var(--text-muted); line-height: 1.7; }
+
+  /* ── FOOTER ── */
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    padding: 2rem;
+    font-size: 12px;
+    color: var(--text-dim);
+  }
+  footer a { color: var(--gold-dim); text-decoration: none; }
+  footer a:hover { color: var(--gold); }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .guide-section {
+    animation: fadeUp 0.5s ease both;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 600px) {
+    nav { padding: 0 1rem; }
+    .nav-links { display: none; }
+    .hero { padding: 3rem 1.25rem 2.5rem; }
+    .container { padding: 0 1.25rem 4rem; }
+    .team-slots { grid-template-columns: 1fr; }
+    .team-slot { border-right: none; border-bottom: 1px solid var(--border); }
+    .team-slot:last-child { border-bottom: none; }
+  }
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav aria-label="Site navigation">
+  <a class="nav-logo" href="#" aria-label="HoK World Guide Home">HoK : World Guide</a>
+  <ul class="nav-links" role="list">
+    <li><a href="#leveling">Leveling</a></li>
+    <li><a href="#combat">Combat</a></li>
+    <li><a href="#characters">Characters</a></li>
+    <li><a href="#exploration">Exploration</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero" role="banner">
+  <div class="hero-badge">Beginner Guide · 2025</div>
+  <h1>Your First Steps in<br><em>Honor of Kings: World</em></h1>
+  <p>Everything a new player needs — from leveling and combat to team building and open-world exploration.</p>
+  <div class="hero-meta">
+    <span><span class="dot"></span>Open-World ARPG</span>
+    <span><span class="dot"></span>TiMi Studio Group</span>
+    <span><span class="dot"></span>Updated May 2025</span>
+    <span><span class="dot"></span>~12 min read</span>
+  </div>
+</header>
+
+<!-- TOC -->
+<nav class="toc" aria-label="Table of contents">
+  <div class="toc-inner">
+    <p class="toc-title">Contents</p>
+    <div class="toc-grid">
+      <a href="#overview"><span class="toc-num">01</span>What is HoK: World?</a>
+      <a href="#leveling"><span class="toc-num">02</span>Leveling & Progression</a>
+      <a href="#combat"><span class="toc-num">03</span>Combat System</a>
+      <a href="#bosses"><span class="toc-num">04</span>Boss Mechanics</a>
+      <a href="#characters"><span class="toc-num">05</span>Characters & Roles</a>
+      <a href="#teams"><span class="toc-num">06</span>Team Compositions</a>
+      <a href="#exploration"><span class="toc-num">07</span>Open World Exploration</a>
+      <a href="#priority"><span class="toc-num">08</span>Early Game Priority</a>
+      <a href="#faq"><span class="toc-num">09</span>FAQ</a>
+    </div>
+  </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="container" id="main-content">
+
+  <!-- 01 Overview -->
+  <section class="guide-section" id="overview" aria-labelledby="s1-title">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 class="section-title" id="s1-title">
+        <small>Introduction</small>
+        What is Honor of Kings: World?
+      </h2>
+    </div>
+    <div class="prose">
+      <p>Honor of Kings: World is a full-scale <strong>open-world action RPG</strong> developed by TiMi Studio Group, set in the same universe as the original Honor of Kings MOBA. Don't let the franchise fool you — this is not a mobile spin-off. It's a massive, standalone experience with deep progression systems, combo-based combat, and a story-driven world you can sink 100+ hours into.</p>
+      <p>You do <em>not</em> need to have played the original Honor of Kings to enjoy World. It has its own story, its own mechanics, and its own cast of characters. The main story alone runs 40–60 hours; with side content, expect well over 100 hours of play.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon gold">⚔️</div>
+        <h3>Action RPG Combat</h3>
+        <p>Real-time combo-based system with dodge counters, skill chaining, and boss stagger mechanics.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon teal">🌏</div>
+        <h3>Massive Open World</h3>
+        <p>Seamless exploration of the Kingdom of Chang'an with no loading screens and a directional compass system.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon purple">👥</div>
+        <h3>Solo or Co-op</h3>
+        <p>The entire main story is completable solo. Multiplayer is entirely optional.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon red">🚫</div>
+        <h3>No Pay-to-Win</h3>
+        <p>All content is accessible to free-to-play players. Premium currency is earnable through gameplay.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 Leveling -->
+  <section class="guide-section" id="leveling" aria-labelledby="s2-title">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2 class="section-title" id="s2-title">
+        <small>Progression</small>
+        Leveling & Progression System
+      </h2>
+    </div>
+    <div class="prose">
+      <p>HoK: World uses a <strong>dual-level structure</strong> that new players often find confusing at first. Understanding both is critical to progressing efficiently from day one.</p>
+    </div>
+    <div class="cards" style="margin-bottom: 1.5rem;">
+      <div class="card">
+        <h3>Source Flow Level</h3>
+        <p>Your primary character power level. Directly controls character ascension, weapon upgrades, rune slots, and system unlocks.</p>
+      </div>
+      <div class="card">
+        <h3>World Flow Level</h3>
+        <p>The world progression tier. It caps your Source Flow Level and controls the rune level cap, plus unlocks world systems and reward tiers.</p>
+      </div>
+    </div>
+    <div class="prose"><p><strong>How to gain EXP efficiently:</strong></p></div>
+    <table class="level-table" aria-label="EXP sources and efficiency">
+      <thead>
+        <tr>
+          <th>EXP Source</th>
+          <th>Daily Yield</th>
+          <th>Priority</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="source">Daily Missions</td>
+          <td class="highlight">~3,000 EXP (~1.5 levels early)</td>
+          <td>🔥 Highest</td>
+        </tr>
+        <tr>
+          <td class="source">Main Story / Awakening Quests</td>
+          <td>Variable (large chunks)</td>
+          <td>🔥 Highest</td>
+        </tr>
+        <tr>
+          <td class="source">Resonance Quests (per character)</td>
+          <td>Large one-time rewards</td>
+          <td>⬆ High</td>
+        </tr>
+        <tr>
+          <td class="source">Flow Trials (stamina dungeons)</td>
+          <td>40 stamina ≈ 200 EXP (160 stamina/day regen)</td>
+          <td>⬆ High</td>
+        </tr>
+        <tr>
+          <td class="source">First-time Elite Boss Kills</td>
+          <td>No stamina cost, high yield</td>
+          <td>✅ Do once</td>
+        </tr>
+        <tr>
+          <td class="source">Open World Exploration</td>
+          <td>One-time per region</td>
+          <td>✅ Passive</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="tip-box">
+      <strong>💡 Beginner tip:</strong> Daily Missions are your bread and butter. Always complete them before anything else. They also drop currency for shop-based progression materials.
+    </div>
+  </section>
+
+  <!-- 03 Combat -->
+  <section class="guide-section" id="combat" aria-labelledby="s3-title">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 class="section-title" id="s3-title">
+        <small>Core Mechanics</small>
+        Combat System
+      </h2>
+    </div>
+    <div class="prose">
+      <p>Combat is built around a <strong>hybrid action + stamina + stagger + dodge counter system</strong>. Each character has 3 active skills (Q / E / R) plus one Ultimate (P). Skills require combo-based energy charging — your basic attacks and skill hits build up the energy needed to chain abilities.</p>
+    </div>
+    <div class="cards" style="margin-bottom: 1rem;">
+      <div class="card">
+        <h3>Basic Controls</h3>
+        <p><strong>Left Click</strong> — Basic attack<br>
+        <strong>Hold</strong> — Charged attack<br>
+        <strong>Shift / Right Click</strong> — Dodge<br>
+        <strong>Tab</strong> — Switch character</p>
+      </div>
+      <div class="card">
+        <h3>Dodge Counter Window</h3>
+        <p>Triggering Dodge just before a hit lands grants an <strong>Enhanced Attack Window</strong> — triggering E right after increases your overall damage output significantly.</p>
+      </div>
+      <div class="card">
+        <h3>Mid-Air Variants</h3>
+        <p>Attacking while airborne triggers variant effects depending on each character's Resonance type. Experiment to discover your character's aerial combos.</p>
+      </div>
+    </div>
+    <div class="tip-box">
+      <strong>⚔️ Combat philosophy:</strong> Dodge first, punish second. Never overcommit to attacks unless the boss is staggered or broken. Patience wins fights.
+    </div>
+  </section>
+
+  <!-- 04 Boss Mechanics -->
+  <section class="guide-section" id="bosses" aria-labelledby="s4-title">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2 class="section-title" id="s4-title">
+        <small>Advanced Combat</small>
+        Boss Mechanics
+      </h2>
+    </div>
+    <div class="prose">
+      <p>Bosses are where HoK: World's combat depth really shines. Learning boss patterns early will save you enormous frustration as you progress into harder content.</p>
+    </div>
+    <ol class="steps">
+      <li><strong>Red telegraph = danger:</strong> Bosses show a red glowing indicator before major attacks. These can be interrupted with specific skills, dodged via perfect evade, or cancelled with ultimates.</li>
+      <li><strong>Toughness bar (white):</strong> Every boss has a white toughness bar. Deplete it to trigger the <strong>Broken State</strong> — all damage increases and you may press X for a finisher.</li>
+      <li><strong>Boss shields:</strong> When a boss has a shield active, it restricts your red-glow skills and alters the combat tempo. Focus on shield-breaking skills first.</li>
+      <li><strong>Second damage window:</strong> Successfully breaking a boss's major move stuns it briefly — this is your highest DPS window. Save burst skills for this moment.</li>
+    </ol>
+    <div class="warning-box">
+      <strong>⚠️ Common mistake:</strong> Many beginners burn their ultimate as soon as it's ready. Save ultimates for when the boss enters Broken State to maximize your damage in that critical window.
+    </div>
+  </section>
+
+  <!-- 05 Characters -->
+  <section class="guide-section" id="characters" aria-labelledby="s5-title">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <h2 class="section-title" id="s5-title">
+        <small>Roster</small>
+        Characters & Roles
+      </h2>
+    </div>
+    <div class="prose">
+      <p>Characters in HoK: World are divided into three core roles. Team building is based on <strong>functional synergy</strong>, not fixed class slots — you have flexibility in how you fill each position.</p>
+    </div>
+    <div class="role-grid">
+      <div class="role-card">
+        <div class="role-header frontline">🛡 Frontline</div>
+        <div class="role-body">
+          <p>Absorb damage, initiate fights, and handle boss mechanics. These are not pure tanks — they contribute damage while surviving frontline pressure.</p>
+          <div class="char-tags">
+            <span class="tag red">Kai</span>
+            <span class="tag red">Hua Mulan</span>
+            <span class="tag red">Leng Chun</span>
+          </div>
+        </div>
+      </div>
+      <div class="role-card">
+        <div class="role-header dps">⚡ Main DPS</div>
+        <div class="role-body">
+          <p>The damage engines of your team. They determine your overall DPS ceiling and require stable conditions to perform — protect them with your frontline and support.</p>
+          <div class="char-tags">
+            <span class="tag gold">Dongfang Yao</span>
+            <span class="tag gold">Meng Ya</span>
+            <span class="tag gold">Jia Luo</span>
+          </div>
+        </div>
+      </div>
+      <div class="role-card">
+        <div class="role-header support">✨ Support</div>
+        <div class="role-body">
+          <p>Control battlefield tempo through buffs, crowd control, shielding, or sustain. Makes the entire combat system run smoothly. Not focused on raw damage.</p>
+          <div class="char-tags">
+            <span class="tag teal">Xi Shi</span>
+            <span class="tag teal">Wang Zhaojun</span>
+            <span class="tag teal">Sun Bin</span>
+            <span class="tag teal">Luban Master</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="prose" style="margin-top: 1.25rem;">
+      <p><strong>Best starter character:</strong> Lu Bu is the easiest to pick up for absolute beginners. Zhao Yun offers balanced gameplay for most players. Hou Yi is ideal if you prefer ranged combat.</p>
+    </div>
+  </section>
+
+  <!-- 06 Team Comps -->
+  <section class="guide-section" id="teams" aria-labelledby="s6-title">
+    <div class="section-header">
+      <span class="section-num">06</span>
+      <h2 class="section-title" id="s6-title">
+        <small>Strategy</small>
+        Team Compositions
+      </h2>
+    </div>
+    <div class="prose">
+      <p>All teams follow a triangular structure: <strong>Frontline + Main DPS + Support</strong>. Here are the three most important compositions for beginners to know.</p>
+    </div>
+
+    <div class="team-comp">
+      <div class="team-header">
+        <span class="team-name">Xi Shi Universal Composition</span>
+        <span class="team-diff diff-easy">✅ Recommended for Beginners</span>
+      </div>
+      <div class="team-slots">
+        <div class="team-slot">
+          <div class="slot-label">🛡 Frontline</div>
+          <div class="slot-chars"><span>Kai</span><span>Hua Mulan</span></div>
+        </div>
+        <div class="team-slot">
+          <div class="slot-label">⚡ Main DPS</div>
+          <div class="slot-chars"><span>Dongfang Yao</span><span>Meng Ya</span></div>
+        </div>
+        <div class="team-slot">
+          <div class="slot-label">✨ Support</div>
+          <div class="slot-chars"><span>Xi Shi</span></div>
+        </div>
+      </div>
+      <div class="team-note">Xi Shi provides grouping, crowd control, and battlefield stabilization. Highly versatile and very forgiving for player mistakes.</div>
+    </div>
+
+    <div class="team-comp">
+      <div class="team-header">
+        <span class="team-name">Leng Chun High-Burst Composition</span>
+        <span class="team-diff diff-hard">⚠️ Not Recommended for Beginners</span>
+      </div>
+      <div class="team-slots">
+        <div class="team-slot">
+          <div class="slot-label">🛡 Frontline</div>
+          <div class="slot-chars"><span>Leng Chun</span></div>
+        </div>
+        <div class="team-slot">
+          <div class="slot-label">⚡ Main DPS</div>
+          <div class="slot-chars"><span>Dongfang Yao</span><span>Meng Ya</span><span>Jia Luo</span></div>
+        </div>
+        <div class="team-slot">
+          <div class="slot-label">✨ Support</div>
+          <div class="slot-chars"><span>Wang Zhaojun</span></div>
+        </div>
+      </div>
+      <div class="team-note">Very high burst damage potential but low forgiveness. Leng Chun has self-risk mechanics — requires proper support synergy and experience to play safely.</div>
+    </div>
+
+    <div class="team-comp">
+      <div class="team-header">
+        <span class="team-name">Ranged Safe Playstyle</span>
+        <span class="team-diff diff-easy">✅ Safe &amp; Relaxed</span>
+      </div>
+      <div class="team-slots">
+        <div class="team-slot">
+          <div class="slot-label">🛡 Frontline</div>
+          <div class="slot-chars"><span>Kai / Hua Mulan</span></div>
+        </div>
+        <div class="team-slot">
+          <div class="slot-label">⚡ Main DPS</div>
+          <div class="slot-chars"><span>Hou Yi (Ranged)</span></div>
+        </div>
+        <div class="team-slot">
+          <div class="slot-label">✨ Support</div>
+          <div class="slot-chars"><span>Sun Bin</span></div>
+        </div>
+      </div>
+      <div class="team-note">Great for players who prefer staying out of melee range. Hou Yi's ranged attacks combined with a strong frontline tank keeps you safe while you deal consistent damage.</div>
+    </div>
+  </section>
+
+  <!-- 07 Exploration -->
+  <section class="guide-section" id="exploration" aria-labelledby="s7-title">
+    <div class="section-header">
+      <span class="section-num">07</span>
+      <h2 class="section-title" id="s7-title">
+        <small>Open World</small>
+        Exploration Tips
+      </h2>
+    </div>
+    <div class="prose">
+      <p>HoK: World has no traditional mini-map. Navigation is done via a <strong>Directional Compass Line System</strong> — align the guidance line at the top of your screen and move toward your target direction. It sounds unusual but becomes second nature quickly.</p>
+    </div>
+    <ol class="steps">
+      <li><strong>Unlock teleport points immediately.</strong> Every time you reach a new area, find and activate the teleport point first. This dramatically reduces travel costs throughout the entire game.</li>
+      <li><strong>Always gather wild resources.</strong> Potions and food items found in the open world are essential for combat sustain, especially in early game boss fights.</li>
+      <li><strong>Do Kunyou instances early.</strong> Kunyou is an independent story instance that provides experience and Resonance rewards — these are some of the best early rewards in the game.</li>
+      <li><strong>Use the skateboard system.</strong> The game includes a fast terrain traversal system that supports quick switching between modes. Master it early to save significant travel time.</li>
+      <li><strong>Track exploration per region.</strong> The "Wandering Journey" interface shows your exploration progress for each area separately. Each region has unique rewards for completion milestones.</li>
+    </ol>
+    <div class="tip-box">
+      <strong>💡 Pro tip:</strong> First-time Elite Boss kills give you both experience and materials with no stamina cost. Clear every elite boss in each region before you start farming for materials with stamina.
+    </div>
+  </section>
+
+  <!-- 08 Priority -->
+  <section class="guide-section" id="priority" aria-labelledby="s8-title">
+    <div class="section-header">
+      <span class="section-num">08</span>
+      <h2 class="section-title" id="s8-title">
+        <small>Action Plan</small>
+        What to Do First — Early Game Priority
+      </h2>
+    </div>
+    <div class="prose">
+      <p>New players are often overwhelmed by the sheer number of systems unlocking in the first few hours. Here's the exact order to tackle things:</p>
+    </div>
+    <ol class="steps">
+      <li><strong>Complete daily missions every day.</strong> This is your most efficient EXP source and provides shop currency. Non-negotiable.</li>
+      <li><strong>Push the main story (Awakening Quests).</strong> Story quests unlock systems, teleport points, and reward huge amounts of EXP. Do not ignore them to go exploring early.</li>
+      <li><strong>Do Resonance Quests for your main character.</strong> These character-specific quests give large one-time EXP rewards and strengthen the character you'll rely on.</li>
+      <li><strong>Activate teleport points in every area you visit.</strong> Future you will be very grateful.</li>
+      <li><strong>Kill every Elite Boss in a region once</strong> (no stamina cost). Then use stamina on Flow Trial dungeons for steady daily EXP.</li>
+      <li><strong>Upgrade your Main DPS character first.</strong> Talent upgrades, weapon enhancement, and equipment all go to your primary damage dealer before anyone else.</li>
+    </ol>
+  </section>
+
+  <!-- 09 FAQ -->
+  <section class="guide-section" id="faq" aria-labelledby="s9-title">
+    <div class="section-header">
+      <span class="section-num">09</span>
+      <h2 class="section-title" id="s9-title">
+        <small>Common Questions</small>
+        FAQ
+      </h2>
+    </div>
+    <div class="faq" role="list">
+      <div class="faq-item" role="listitem">
+        <div class="faq-q" tabindex="0" aria-expanded="false">Do I need to play the original Honor of Kings first? <span class="arrow">▾</span></div>
+        <div class="faq-a"><div class="faq-a-inner">No. Honor of Kings: World is a completely standalone game with its own story, characters, and mechanics. Prior knowledge of the original MOBA is not required at all.</div></div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <div class="faq-q" tabindex="0" aria-expanded="false">Is it pay-to-win? <span class="arrow">▾</span></div>
+        <div class="faq-a"><div class="faq-a-inner">No. All content in the game is accessible to free-to-play players. Premium currency can be earned through regular gameplay, and microtransactions are mostly cosmetic or convenience-based.</div></div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <div class="faq-q" tabindex="0" aria-expanded="false">How long does it take to finish the game? <span class="arrow">▾</span></div>
+        <div class="faq-a"><div class="faq-a-inner">The main story takes approximately 40–60 hours. With side content, world exploration, and endgame systems, expect well over 100 hours of total play time.</div></div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <div class="faq-q" tabindex="0" aria-expanded="false">Can I change my main character later? <span class="arrow">▾</span></div>
+        <div class="faq-a"><div class="faq-a-inner">Yes. You can switch your main character and adjust your team composition at any point. Investment in characters transfers to their kit, so you are not permanently locked into your starter choice.</div></div>
+      </div>
+      <div class="faq-item" role="listitem">
+        <div class="faq-q" tabindex="0" aria-expanded="false">What's the best starting character for a total beginner? <span class="arrow">▾</span></div>
+        <div class="faq-a"><div class="faq-a-inner">Lu Bu is the easiest for absolute beginners due to straightforward mechanics. Zhao Yun offers balanced gameplay for most players. Hou Yi is the best choice if you prefer keeping distance with ranged attacks.</div></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>HoK: World Guide — Fan-made beginner resource. Not affiliated with TiMi Studio Group or Level Infinite.</p>
+  <p style="margin-top: 6px;">Content based on game version as of May 2025. <a href="#main-content">Back to top ↑</a></p>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-q').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.closest('.faq-item');
+      const isOpen = item.classList.toggle('open');
+      q.setAttribute('aria-expanded', isOpen);
+    });
+    q.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); q.click(); }
+    });
+  });
+
+  const sections = document.querySelectorAll('.guide-section');
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.style.opacity = '1';
+    });
+  }, { threshold: 0.08 });
+  sections.forEach(s => { s.style.opacity = '0'; obs.observe(s); });
+</script>
+
+</body>
+</html>
